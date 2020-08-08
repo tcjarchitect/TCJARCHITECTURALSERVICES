@@ -1054,6 +1054,11 @@ footer::after {
     }
 }
 
+@media (max-width: 375px) {
+    .carousel-caption {
+        top: -10px;
+    }
+}
 
 @media (max-width: 320px) {
     .carousel-caption {
