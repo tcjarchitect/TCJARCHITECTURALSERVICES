@@ -194,7 +194,7 @@ nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:fo
 
 
 /* LOGO */
-.navbar-brand .logo{
+.logo{
     width: 40px;
 }
 
@@ -659,7 +659,7 @@ footer::after {
 /* Footer About */
 .footer_item .logo {
     margin-bottom: 15px;
-    width: 200px;
+    width: 40px;
 }
 .list-inline.footer_social_icon {
     margin: 32px 0 0;
