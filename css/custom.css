@@ -32,7 +32,8 @@ a:hover,a:focus{ text-decoration: none}
 
 /*Preloader css*/
 #loading{
-    background-color: #ffcb0f;
+    /*background-color: #ffcb0f;*/
+    background-color: #ff4d00;
     height: 100%;
     width: 100%;
     position: fixed;
