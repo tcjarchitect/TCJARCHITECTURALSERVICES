@@ -198,9 +198,15 @@ nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:fo
 }
 
 
+
 /* LOGO */
 .logo{
     width: 40px;
+}
+
+.navbar-header{
+    position: absolute;
+    top: 5%;
 }
 
 .navbar-header .navbar-brand .logo, .company-name{
@@ -836,7 +842,8 @@ footer::after {
         padding: 0;
     }
     nav.navbar.bootsnav .navbar-toggle {
-        margin-top: 32px;
+        /*margin-top: 32px;*/
+        margin-top: 25px;
     }
     .attr-nav {
         right: 25px;
@@ -845,6 +852,12 @@ footer::after {
     nav.navbar.bootsnav ul.nav > li > a {
         padding: 12px 0;
     }
+
+    .navbar-header{
+        position: relative;
+        top: 5%;
+    }
+
     .container.about_bg {
         background-position: bottom 100px center;
     }
@@ -879,7 +892,7 @@ footer::after {
 
 }
 
-@media (max-width: 767px) {
+@media (max-width: 770px) {
     h1 {
         font-size: 32px;
         line-height: 35px;
@@ -894,6 +907,12 @@ footer::after {
     nav.navbar.bootsnav .navbar-toggle {
         margin-left: 15px;
     }
+
+    /*.navbar-header{
+        top: -15px;
+    }*/
+   
+
     .carousel-caption {
         top: 20px;
     }
@@ -958,6 +977,12 @@ footer::after {
     h3 {
         font-size: 17px;
     }
+
+    nav.navbar.bootsnav .navbar-toggle {
+        /*margin-top: 32px;*/
+        margin-top: 20px;
+    }
+
     .list-inline.info {
         margin-bottom: 10px;
         text-align: center;
