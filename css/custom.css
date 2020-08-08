@@ -134,7 +134,8 @@ a:hover,a:focus{ text-decoration: none}
 
 /* Top Nav */
 .top_nav {
-    background: #ffcb0f none repeat scroll 0 0;
+    /*background: #ffcb0f none repeat scroll 0 0;*/
+    background: #ff4d00 none repeat scroll 0 0;
     overflow: hidden;
     padding: 10px 0;
 }
@@ -380,14 +381,15 @@ nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:fo
     background-size:cover;
     position:relative;
     padding-bottom: 102px;
-    border-bottom:2px solid #ffcb0f;
+    border-bottom:2px solid #ff4d00;
 }
 #portfolio::before{
     position:absolute;
     content:"";
     height:100%;
     width:100%;
-    background: rgba(255,203,15,0.85);
+    /*background: rgba(255,203,15,0.85);*/
+    background: rgba(255,77,0,0.85);
     top:0;
     left:0;
 }
